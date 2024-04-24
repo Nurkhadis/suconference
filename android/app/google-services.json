@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "270392886123",
+    "project_id": "suconference-fea8d",
+    "storage_bucket": "suconference-fea8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270392886123:android:f0e86aa214d12efdf6822e",
+        "android_client_info": {
+          "package_name": "com.example.suconference"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEQNtwVPvu36kJUfSm7ahQZnmuQuHdsrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
