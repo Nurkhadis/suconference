@@ -78,7 +78,7 @@ class _HomeState extends State<Home> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const TopTitles(subtitle: "", title: "E Commerce"),
+                        const TopTitles(subtitle: "", title: "SU Events"),
                         TextFormField(
                           controller: search,
                           onChanged: (String value) {
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                           height: 24.0,
                         ),
                         const Text(
-                          "Categories",
+                          "Институты",
                           style: TextStyle(
                             fontSize: 18.0,
                             fontWeight: FontWeight.bold,
@@ -145,7 +145,7 @@ class _HomeState extends State<Home> {
                       ? const Padding(
                           padding: EdgeInsets.only(top: 12.0, left: 12.0),
                           child: Text(
-                            "Best Products",
+                            "Предстоящие события",
                             style: TextStyle(
                               fontSize: 18.0,
                               fontWeight: FontWeight.bold,
@@ -173,7 +173,7 @@ class _HomeState extends State<Home> {
                                           mainAxisSpacing: 20,
                                           crossAxisSpacing: 20,
                                           childAspectRatio: 0.7,
-                                          crossAxisCount: 2),
+                                          crossAxisCount: 1),
                                   itemBuilder: (ctx, index) {
                                     ProductModel singleProduct =
                                         searchList[index];
@@ -204,7 +204,7 @@ class _HomeState extends State<Home> {
                                             ),
                                           ),
                                           Text(
-                                              "Price: \$${singleProduct.price}"),
+                                              "Дата и время: ${singleProduct.price}"),
                                           const SizedBox(
                                             height: 30.0,
                                           ),
@@ -220,7 +220,7 @@ class _HomeState extends State<Home> {
                                                     context: context);
                                               },
                                               child: const Text(
-                                                "Buy",
+                                                "Участвовать",
                                               ),
                                             ),
                                           ),
@@ -246,7 +246,7 @@ class _HomeState extends State<Home> {
                                               mainAxisSpacing: 20,
                                               crossAxisSpacing: 20,
                                               childAspectRatio: 0.7,
-                                              crossAxisCount: 2),
+                                              crossAxisCount: 1),
                                       itemBuilder: (ctx, index) {
                                         ProductModel singleProduct =
                                             productModelList[index];
@@ -293,7 +293,7 @@ class _HomeState extends State<Home> {
                                                         context: context);
                                                   },
                                                   child: const Text(
-                                                    "Buy",
+                                                    "Участвовать",
                                                   ),
                                                 ),
                                               ),
